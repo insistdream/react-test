@@ -1,0 +1,53 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+html {
+  font-size: 16Px;
+}
+body {
+  background: #F9F9F9;
+  padding-top: constant(safe-area-inset-top);
+  /**为导航栏+状态栏的高度 88px  */
+  padding-left: constant(safe-area-inset-left);
+  /**如果未竖屏时为0       */
+  padding-right: constant(safe-area-inset-right);
+  /**如果未竖屏时为0   */
+  padding-bottom: constant(safe-area-inset-bottom);
+  /**为底下圆弧的高度 34px   */
+  overflow-x: hidden;
+  max-width: 750px;
+  margin: 0 auto;
+}
+body,
+div,
+img,
+span {
+  box-sizing: border-box;
+}
+.system-loading-wrap {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.system-text {
+  margin-bottom: 10px;
+  color: #a6a6a6;
+  text-align: center;
+}
+.system-loading {
+  width: 200px;
+  height: 4px;
+  background-color: #a6a6a6;
+  border-radius: 4px;
+}
+.system-loading-inner {
+  height: 100%;
+  background-color: #262626;
+  border-radius: 4px;
+  transition-duration: .2s;
+  transition-property: width;
+  transition-timing-function: linear;
+}

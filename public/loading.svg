@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style type="text/css">
+  @keyframes load {
+    0% {
+      transform: rotate(0)
+    }
+    100% {
+      transform: rotate(360deg)
+    }
+  }
+  #load { animation: load 1s linear infinite; transform-origin: center center; }
+  </style>
+  <title>loading</title>
+  <defs>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="90%" id="linearGradient-1">
+      <stop stop-color="#999999" offset="0%"></stop>
+      <stop stop-color="#DDDDDD" offset="100%"></stop>
+    </linearGradient>
+    <linearGradient x1="50%" y1="10%" x2="50%" y2="90%" id="linearGradient-2">
+      <stop stop-color="#DDDDDD" offset="0%" stop-opacity="0.0"></stop>
+      <stop stop-color="#DDDDDD" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <g id="load" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="loading" fill-rule="nonzero">
+      <path d="M10,0 L10,1.8 C5.47126505,1.8 1.8,5.47126505 1.8,10 C1.8,14.4448695 5.33655128,18.0637332 9.74930365,18.1962408 L10,18.2 L10,20 C4.4771525,20 0,15.5228475 0,10 C0,4.57076009 4.32667079,0.152068282 9.72009516,0.00384179753 L10,0 Z" id="path" fill="url(#linearGradient-1)"></path>
+      <path d="M10,0 C15.5228475,0 20,4.4771525 20,10 C20,15.4292399 15.6733292,19.8479317 10.2799048,19.9961582 L10,20 L10,18.2 C14.5287349,18.2 18.2,14.5287349 18.2,10 C18.2,5.55513051 14.6634487,1.93626684 10.2506963,1.80375915 L10,1.8 L10,0 Z" id="path" fill="url(#linearGradient-2)"></path>
+      <circle id="circle" fill="#999999" cx="10" cy="0.898976432" r="1"></circle>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+.pagination {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .prev,.next {
+        font-size:14px;
+        color: #4287f1;
+        cursor:pointer;
+        &:hover {
+            color: #4287f1;
+        }
+        user-select: none;
+        &.disabled {
+            color: #999;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+    }
+    .info {
+        font-size:14px;
+        color: #333;
+    }
+}
