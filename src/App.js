@@ -1,7 +1,7 @@
 import React, {Suspense,lazy,useState} from 'react';
-import SwitchLayout from './layouts1/SwitchLayout';
-import AbnormalLayout from '@/layouts1/AbnormalLayout';
-import ExceptionLayout from '@/layouts1/ExceptionLayout';
+import SwitchLayout from './layouts/SwitchLayout';
+import AbnormalLayout from '@/layouts/AbnormalLayout';
+import ExceptionLayout from '@/layouts/ExceptionLayout';
 import { AppRouter, AppRoute } from '@ice/stark';
 import { subAppRoutes } from './routes'
 

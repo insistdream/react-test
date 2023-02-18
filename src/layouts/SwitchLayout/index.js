@@ -1,5 +1,5 @@
 import React from 'react';
-import BasicLayout from '@/layouts1/BasicLayout';
+import BasicLayout from '@/layouts/BasicLayout';
 import { blankLayoutRoutes } from '@/routes';
 
 export default (props) => {

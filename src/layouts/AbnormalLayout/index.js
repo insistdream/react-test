@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import ExceptionLayout from '@/layouts1/ExceptionLayout';
+import ExceptionLayout from '@/layouts/ExceptionLayout';
 import './index.less';
 
 export default (props) => {
