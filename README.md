@@ -12,3 +12,4 @@ yarn build
 
 ## 线上访问
 
+https://react-test-01.oss-cn-guangzhou.aliyuncs.com
